@@ -231,6 +231,7 @@ namespace AmmantoolaLab2
             this.AcceptButton = this.btnPicture_Click;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CancelButton = this.btnReset_Click;
             this.ClientSize = new System.Drawing.Size(839, 407);
             this.Controls.Add(this.groupBox2);
