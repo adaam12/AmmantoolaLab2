@@ -48,6 +48,7 @@ namespace AmmantoolaLab2
             this.btnPicture_Click = new System.Windows.Forms.Button();
             this.picImage_Click = new System.Windows.Forms.PictureBox();
             this.lbltext = new System.Windows.Forms.Label();
+            this.btnMessage = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picImage_Click)).BeginInit();
@@ -226,6 +227,17 @@ namespace AmmantoolaLab2
             this.lbltext.TabIndex = 4;
             this.lbltext.Visible = false;
             // 
+            // btnMessage
+            // 
+            this.btnMessage.BackColor = System.Drawing.Color.IndianRed;
+            this.btnMessage.Location = new System.Drawing.Point(463, 372);
+            this.btnMessage.Name = "btnMessage";
+            this.btnMessage.Size = new System.Drawing.Size(154, 33);
+            this.btnMessage.TabIndex = 2;
+            this.btnMessage.Text = "message";
+            this.btnMessage.UseVisualStyleBackColor = false;
+            this.btnMessage.Click += new System.EventHandler(this.btnMessage_Click);
+            // 
             // Form1
             // 
             this.AcceptButton = this.btnPicture_Click;
@@ -234,6 +246,7 @@ namespace AmmantoolaLab2
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CancelButton = this.btnReset_Click;
             this.ClientSize = new System.Drawing.Size(839, 407);
+            this.Controls.Add(this.btnMessage);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -273,6 +286,7 @@ namespace AmmantoolaLab2
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtMultiplier;
         private System.Windows.Forms.Label lbltext;
+        private System.Windows.Forms.Button btnMessage;
     }
 }
 

@@ -98,5 +98,10 @@ namespace AmmantoolaLab2
             lblShowAnswer.Text = Convert.ToString(Answer);
             
         }
+        //this button will show a message when clicked 
+        private void btnMessage_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello World" , "Yassine Adaam Ammantoola");
+        }
     }
 }
